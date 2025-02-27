@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Personal - Abrahán</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <ul>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#hobbies">Pasatiempos</a></li>
+            <li><a href="#tasks">Tareas</a></li>
+            <li><a href="#schedule">Horario</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="about" class="card">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy Abrahán. Soy un apasionado por la tecnología y el desarrollo web.</p>
+        </section>
+        <section id="hobbies" class="card">
+            <h2>Mis Pasatiempos</h2>
+            <ul>
+                <li>Programación</li>
+                <li>Lectura</li>
+                <li>Videojuegos</li>
+            </ul>
+        </section>
+        <section id="tasks" class="card">
+            <h2>Tareas Pendientes</h2>
+            <ol>
+                <li>Estudiar nuevas tecnologías</li>
+                <li>Trabajar en proyectos</li>
+                <li>Hacer ejercicio</li>
+            </ol>
+        </section>
+        <section id="schedule" class="card">
+            <h2>Horario Semanal</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Actividad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Lunes</td><td>Estudiar programación</td></tr>
+                        <tr><td>Martes</td><td>Lectura</td></tr>
+                        <tr><td>Miércoles</td><td>Ejercicio</td></tr>
+                        <tr><td>Jueves</td><td>Trabajo en proyectos</td></tr>
+                        <tr><td>Viernes</td><td>Tiempo libre</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="contact" class="card">
+            <h2>Contacto</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Tu Nombre">
+                <input type="text" placeholder="Motivo de Contacto">
+                <input type="email" placeholder="Tu Correo">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
